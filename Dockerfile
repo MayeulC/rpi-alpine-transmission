@@ -1,4 +1,4 @@
-FROM hypriot/rpi-alpine-scratch
+FROM container4armhf/armhf-alpine
 
 # Install transmission
 RUN apk update && \
